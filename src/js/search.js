@@ -2,8 +2,7 @@ import instantsearch from 'instantsearch.js/es';
 import {
   searchBox,
   hits,
-  pagination,
-  refinementList,
+  pagination
 } from 'instantsearch.js/es/widgets';
 
 const search = instantsearch({
